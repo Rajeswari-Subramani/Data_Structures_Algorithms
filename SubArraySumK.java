@@ -15,7 +15,7 @@ public class SubArraySumK {
 			
 				preSum+=nums[i];
 				
-				  // Calculate x-k:
+				  // Calculate preSum-k:
 	            int remove = preSum - k;
 	            
 	         // Add the number of subarrays to be removed:
